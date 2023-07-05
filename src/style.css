@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 20px auto auto 20px;
+  font-size: 50px;
+}
+
+.leader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-area {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 40px auto auto 70px;
+}
+
+.left-first {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.left-first h2 {
+  font-size: 30px;
+}
+
+.left-first button {
+  border: 1px solid #000;
+}
+
+.scores ul {
+  list-style: none;
+  border: 1px solid #000;
+  margin-top: 20px;
+  text-align: left;
+  padding: 0;
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+}
+
+ul .player:nth-child(odd) {
+  background-color: #fff;
+}
+
+ul .player:not(:nth-child(even)) {
+  background-color: grey;
+}
+
+.right-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.right-area h3 {
+  font-size: 30px;
+}
+
+.fill-score {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.fill-score #submit {
+  display: flex;
+  border: 1px solid #000;
+  margin-left: 165px;
+}
+
+#name,
+#score {
+  border: 1px solid #000;
+  width: 215px;
+}
