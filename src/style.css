@@ -34,26 +34,20 @@ h1 {
   border: 1px solid #000;
 }
 
-.scores ul {
-  list-style: none;
-  border: 1px solid #000;
-  margin-top: 20px;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td {
+  border: 1px solid #ddd;
   text-align: left;
-  padding: 0;
+  padding: 8px;
 }
 
-.player {
-  display: flex;
-  flex-direction: row;
-  padding: 3px;
-}
-
-ul .player:nth-child(odd) {
-  background-color: #fff;
-}
-
-ul .player:not(:nth-child(even)) {
-  background-color: grey;
+tr:nth-child(even) {
+  background-color: #ddd;
 }
 
 .right-area {
@@ -84,4 +78,10 @@ ul .player:not(:nth-child(even)) {
 #score {
   border: 1px solid #000;
   width: 215px;
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
 }
