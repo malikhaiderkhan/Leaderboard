@@ -4,9 +4,21 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-image: url('./images/lead5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 0px;
+}
+
 h1 {
-  margin: 20px auto auto 20px;
+  margin: 20px auto auto 470px;
   font-size: 50px;
+  color: hsla(11,100%,52.2%,1);;
+  font-weight: 900;
+  padding-bottom: 25px;
+  text-shadow: 5px 5px #000000;
 }
 
 .leader {
@@ -17,27 +29,35 @@ h1 {
 .left-area {
   display: inline-flex;
   flex-direction: column;
-  margin: 40px auto auto 70px;
+  margin: 40px auto auto 200px;
 }
 
 .left-first {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  padding-bottom: 35px;
 }
 
 .left-first h2 {
   font-size: 30px;
+  color: #ffffff;
+  text-shadow: 3px 3px #000000;
 }
 
 .left-first button {
   border: 1px solid #000;
+  background-color: burlywood;
+  color: white;
+  height: 25px;
+  margin: 5px 0px 0px 15px;
+  border: 2px solid #ffffff;
 }
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 70%;
+  width: 100%;
 }
 
 td {
@@ -47,17 +67,24 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #753d3d;
+}
+
+tr:nth-child(odd) {
+  background-color: hsl(11deg 17.89% 52.23%);
 }
 
 .right-area {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 160px;
+  margin-left: 60px;
 }
 
 .right-area h3 {
   font-size: 30px;
+  color: #ffffff;
+  text-shadow: 3px 3px #000000;
 }
 
 .fill-score {
@@ -72,12 +99,19 @@ tr:nth-child(even) {
   display: flex;
   border: 1px solid #000;
   margin-left: 165px;
+  height: 25px;
+  background-color: firebrick;
+  color: #ffffff;
+  border: 2px solid cornsilk;
 }
 
 #name,
 #score {
   border: 1px solid #000;
   width: 215px;
+  height: 30px;
+  background-color: khaki;
+  border: 2px solid brown;
 }
 
 #error-message {
