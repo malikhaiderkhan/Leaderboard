@@ -9,16 +9,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-x: 0px;
+  background-position-x: 0;
 }
 
 h1 {
   margin: 20px auto auto 470px;
   font-size: 50px;
-  color: hsla(11,100%,52.2%,1);;
+  color: hsla(11, 100%, 52.2%, 1);
   font-weight: 900;
   padding-bottom: 25px;
-  text-shadow: 5px 5px #000000;
+  text-shadow: 5px 5px #000;
 }
 
 .leader {
@@ -41,17 +41,16 @@ h1 {
 
 .left-first h2 {
   font-size: 30px;
-  color: #ffffff;
-  text-shadow: 3px 3px #000000;
+  color: #fff;
+  text-shadow: 3px 3px #000;
 }
 
 .left-first button {
-  border: 1px solid #000;
   background-color: burlywood;
   color: white;
   height: 25px;
-  margin: 5px 0px 0px 15px;
-  border: 2px solid #ffffff;
+  margin: 5px 0 0 15px;
+  border: 2px solid #fff;
 }
 
 table {
@@ -83,8 +82,8 @@ tr:nth-child(odd) {
 
 .right-area h3 {
   font-size: 30px;
-  color: #ffffff;
-  text-shadow: 3px 3px #000000;
+  color: #fff;
+  text-shadow: 3px 3px #000;
 }
 
 .fill-score {
@@ -97,17 +96,15 @@ tr:nth-child(odd) {
 
 .fill-score #submit {
   display: flex;
-  border: 1px solid #000;
   margin-left: 165px;
   height: 25px;
   background-color: firebrick;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid cornsilk;
 }
 
 #name,
 #score {
-  border: 1px solid #000;
   width: 215px;
   height: 30px;
   background-color: khaki;
