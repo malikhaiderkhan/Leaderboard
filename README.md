@@ -155,3 +155,9 @@ I would like to thank Microverse, my Learning partner and Standup Team for suppo
   - https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
