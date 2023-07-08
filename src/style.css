@@ -76,7 +76,7 @@ tr:nth-child(odd) {
 .right-area {
   display: flex;
   flex-direction: column;
-  margin-top: 160px;
+  margin-top: 40px;
   margin-left: 60px;
 }
 
@@ -84,6 +84,7 @@ tr:nth-child(odd) {
   font-size: 30px;
   color: #fff;
   text-shadow: 3px 3px #000;
+  padding-bottom: 20px;
 }
 
 .fill-score {
