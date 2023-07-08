@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do-list</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" type="application/css" href="style.css">
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
-<body>
-    <div class="container">
-        <div class="todo">
-        <div class="todo-top">
-           <h2>Today's To Do</h2>
-           <a href="#"><img class="recycle" src="/images/recycle.png" alt="recycle img"></a>
-        </div>
-        <hr>
-           <div class="row">
-            <input type="text" id="add-input" placeholder="Add to your list...">
-           </div>
-           <hr>
-           <ul id="task-list">
-           </ul>
-           <div class="clear">
-             <button id="bclear">Clear all completed</button>
-           </div>
-        </div>
 
-    </div>
-    <script type="module" src="index.js"></script>
+<body>
+    <h1>Leaderboard</h1>
+    <main>
+      <div class="leader">
+        <div class="left-area">
+            <div class="left-first">
+                <h2>Recent Scores</h2>
+                <button class="refresh-btn">Refresh</button>
+            </div>
+            <div id="table"></div>
+        </div>
+        <div class="right-area" >
+            <h3>Add your score</h3>
+            <form class="fill-score">
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="text" id="score" placeholder="Your score" required>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+        <div id="error-message"></div>
+      </div>
+    </main>
 </body>
+
 </html>

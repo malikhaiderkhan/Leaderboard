@@ -1,3 +1,5 @@
+import './style.css';
+
 const gameUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/2ag8QvxcyAjEtOo0qNyP/scores/';
 
 const addScore = async (name, score) => {
